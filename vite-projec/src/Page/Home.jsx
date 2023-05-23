@@ -1,9 +1,10 @@
-
+import Navigate from "../components/Navigate"
+import "../App.css"
 
 const Home = () => {
   return (
-    <div>
-      
+    <div className="container">
+      <Navigate/>
     </div>
   )
 }
