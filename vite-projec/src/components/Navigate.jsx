@@ -32,9 +32,9 @@ const Navigate = () => {
       
       <div className="right-box">
         <img src={personIcon} alt="person Icon" />
-        <span>Account</span>
+        <span className="navbar-right-span">Account</span>
         <img src={shoppingCartIcon} alt="shopping Cart Icon" />
-        <span>Bag</span>
+        <span className="navbar-right-span">Bag</span>
       </div>
     </header>
   )

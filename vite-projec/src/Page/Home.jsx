@@ -3,9 +3,12 @@ import "../App.css"
 
 const Home = () => {
   return (
+    <>
     <div className="container">
-      <Navigate/>
-    </div>
+     <Navigate/>
+    </div> 
+    
+    </>
   )
 }
 

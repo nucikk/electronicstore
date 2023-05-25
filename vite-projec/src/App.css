@@ -1,7 +1,15 @@
 .container {
-  width: 84.12%;
   height: 2675px;
-  background-color: bisque;
-  position: relative;
-  margin: auto;
+  background-color: #f7f8fa;
+  padding: 0 80px; 
 }
+
+@media only screen and (max-width: 390px) {
+  .container {
+    width: 100%; 
+    display: flex;
+    position: relative;
+    padding: 0 5px; 
+  }
+}
+
